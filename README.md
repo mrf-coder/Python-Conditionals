@@ -73,4 +73,154 @@ else:
 if x != y  condition is true  print x is not equal to y  stop
 else print x is equal to y  stop
 ```
+```js
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x == y:
+    print("x is  equal to y")
+else:
+    print("x is not equal to y")    
+
+
+if x == y  condition is true  print x is  equal to y  stop
+else print x is not equal to y  stop
+```
+```js
+#### The or keyword is a logical operator, and is used to combine conditional statements:
+score = int(input("Score: "))
+
+if score >= 90 and score <= 100:
+ print("Grade: A")
+elif score >= 80 and score < 90:
+ print("Grade: B")
+elif score >= 70 and score < 80:
+    print("Grade: C")
+elif score >= 60 and score < 70:
+    print("Grade: D")
+else:
+    print("Grade: F")
+
+```
+```js
+score = int(input("Score: "))
+
+if score >= 90 :
+ print("Grade: A")
+elif score >= 80 :
+ print("Grade: B")
+elif score >= 70 :
+    print("Grade: C")
+elif score >= 60 :
+    print("Grade: D")
+else:
+    print("Grade: F")
+
+```
+```js
+score = int(input("Score: "))
+
+if 90 <= score <=100 :
+ print("Grade: A")
+elif 80 <= score <90 :
+ print("Grade: B")
+elif 70 <= score <80 :
+    print("Grade: C")
+elif 60 <= score <70 :
+    print("Grade: D")
+else:
+    print("Grade: F")
+
+```
+```js
+##### Use of % operator
+x = int(input("What,s x?"))
+if x % 2 == 0:
+ print("Even")
+else:
+    print("Odd")   
+```
+```js
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+main()
+Depend upon condition of function return true or faulse
+```
+
+```js
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+
+def is_even(n):
+     return True if n % 2 == 0 else False
+       
+    
+
+main()
+
+```
+
+
+```js
+  short form
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+
+def is_even(n):
+     return  n % 2 == 0 
+       
+    
+
+main()
+
+```
+
+```js
+    ###### USE of Match Statment
+name = input("What,s your name ?")
+match name :
+    case "Harry":
+        print("Gryffindor")
+    case "Ali":
+        print("Gryffindor")
+    case "Gry":
+        print("Gryffindor")
+    case "Doe":
+        print("Gryffindor")
+    case _:
+        print("Who")    
+    
+
+```
+```js
+    Simple Form of MATCH
+  name = input("What,s your name ?")
+match name :
+    case "Harry" | "Ali" | "Gry" | "Doe":
+        print("Gryffindor")
+   
+    case _:
+        print("Who")    
+```
+
+
 
